@@ -1,21 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Резюме - Технический директор</title>
 </head>
-<body style="margin: 0px;">
-    <div class="wrapper" style="display: grid; grid-template-columns: 200px 1fr; grid-template-rows: auto 1fr; height: 100vh; grid-gap: 0px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px;">
-        <aside style="grid-row: span 2; background-color: rgb(53, 49, 52);">
-            Sidebar
-        </aside>
-        <header style="background-color: #0078d4; text-align: center; padding: 10px">
-            Header
+<body style="margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 14px; background-color: #f4f4f4;">
+    <div style="max-width: 900px; margin: 0 auto; padding: 20px; background-color: white; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+
+        <!-- Header -->
+        <header style="background-color: #0078d4; color: white; text-align: center; padding: 20px; border-radius: 5px 5px 0 0;">
+            <h1 style="margin: 0; font-size: 28px;">Олег Не_бывать_моей_фамилии_на_гитхабе</h1>
+            <p style="margin: 10px 0 0;">Технический директор | Специалист по цифровой трансформации</p>
         </header>
-        <main style="padding: 10px; background-color: #b44c4c">
-            Main
+
+        <!-- Navigation -->
+        <nav style="background-color: #f0f0f0; padding: 10px; text-align: center;">
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="#contacts" style="text-decoration: none; color: #0078d4;">Контакты</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="#skills" style="text-decoration: none; color: #0078d4;">Навыки</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="#experience" style="text-decoration: none; color: #0078d4;">Опыт работы</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="#education" style="text-decoration: none; color: #0078d4;">Образование</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main style="padding: 20px;">
+            <section id="contacts">
+                <h2 style="color: #333; margin-bottom: 10px;">Контакты</h2>
+                <ul style="list-style: none; padding: 0; margin: 0 0 20px;">
+                    <li style="margin-bottom: 5px;">
+                        <a href="tel:+79261234567" style="text-decoration: none; color: #0078d4;">+375 44 XXX-xx-xx</a>
+                    </li>
+                    <li style="margin-bottom: 5px;">
+                        <a href="mailto:ivan.ivanov@email.com" style="text-decoration: none; color: #0078d4;">boss_bossov@email.com</a>
+                    </li>
+                    <li style="margin-bottom: 5px;">
+                        <a href="https://linkedin.com/in/ivanivanov" style="text-decoration: none; color: #0078d4;" target="_blank">linkedin.com/oleg_boss</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2 style="color: #333; margin-bottom: 10px;">Ключевые навыки</h2>
+                <ul style="list-style: disc; padding-left: 20px; margin: 0 0 20px;">
+                    <li style="margin-bottom: 5px;">Управление IT-стратегией и командами разработки</li>
+                </ul>
+            </section>
+
+            <section id="experience">
+                <h2 style="color: #333; margin-bottom: 10px;">Опыт работы</h2>
+                <ol style="padding-left: 20px; margin: 0 0 20px;">
+                    <li style="margin-bottom: 15px;">
+                        <strong>Технический директор</strong>, Some Blockchain project (2017–2023)<br>
+                        Руководил разработкой и внедрением IT-решений, увеличил эффективность процессов на 40%.
+                    </li>
+                </ol>
+            </section>
+
+            <section id="education">
+                <h2 style="color: #333; margin-bottom: 10px;">Образование</h2>
+                <ul style="list-style: none; padding: 0; margin: 0 0 20px;">
+                    <li style="margin-bottom: 5px;">
+                        Белорусско-Российский университет. Прикладная математика.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 style="color: #333; margin-bottom: 10px;">Пример кода</h2>
+                <p style="margin: 0 0 10px;">Простой Python-скрипт для демонстрации тега. Хотя CTO не пишут код как правило.</p>
+                <pre style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; overflow-x: auto;">
+                    <code>
+def automate_task():
+    for i in range(5):
+        print(f"Задача {i} выполнена")
+automate_task()
+                    </code>
+                </pre>
+            </section>
         </main>
+
+        <!-- Footer -->
+        <footer style="background-color: #333; color: white; text-align: center; padding: 10px; border-radius: 0 0 5px 5px;">
+            <p style="margin: 0;">© 2025. Никакие права не защищены.</p>
+        </footer>
     </div>
 </body>
 </html>
